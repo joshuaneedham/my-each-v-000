@@ -8,4 +8,3 @@ def my_each(file)
       file
     end
   end
-end
