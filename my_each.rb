@@ -6,4 +6,4 @@ def my_each(file)
   file
 end
 
-files {|n| puts "#{n}"}
+my_each {|n| puts "#{n}"}
