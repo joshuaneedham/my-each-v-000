@@ -4,3 +4,8 @@ def my_each(file)
   end
   yield(file)
 end
+
+
+my_each do |name|
+  puts "#{name}"
+end
