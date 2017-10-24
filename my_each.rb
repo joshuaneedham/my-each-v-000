@@ -6,5 +6,3 @@ def my_each(file)
     file
   end
 end
-
-my_each.each {|name| puts "#{name}" }
