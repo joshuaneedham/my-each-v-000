@@ -1,7 +1,7 @@
 def my_each(file)
   file.each do |n|
     puts "#{n}"
-    yield(files)
+    yield(n)
   end
   file
 end
