@@ -1,3 +1,6 @@
 def my_each(file)
-  yield(files)
+  files.each do |name|
+    puts name
+  end
+    yield(files)
 end
