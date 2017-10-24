@@ -1,3 +1,8 @@
 def my_each(file)
-  file.each {|name| puts "#{name}" }
+  if block_given?
+    file.each {|name| puts "#{name}" }
+    yield(file)
+  else
+    file
+  end
 end
