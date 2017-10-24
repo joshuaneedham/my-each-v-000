@@ -1,7 +1,7 @@
 def my_each(file)
   if block_given?
     file.each {|name| puts "#{name}" }
-    yield(file)
+    yield(name)
   else
     file
   end
