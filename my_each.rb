@@ -1,5 +1,4 @@
 def my_each(file)
-  file.each {|name| puts "#{name}"
-  end
+  file.each {|name| puts "#{name}" }
     yield(files)
 end
