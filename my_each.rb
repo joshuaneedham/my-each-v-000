@@ -4,6 +4,5 @@ def my_each(file)
     yield(file[i])
     i += 1
   end
+  file
 end
-
-
